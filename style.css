@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+nav{
+    position: relative;
+}
+nav .nav-right{
+   position: absolute;
+   top: 32%;
+   left: 72%;
+   display: flex;
+
+}
+nav .nav-right button{
+    margin-left: 1rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 4rem;
+}
+nav .nav-right button a{
+    text-decoration: none;
+}
+/*----------------hero-----------------*/
+.hero{
+    display: flex;
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+.hero .hero-left{
+    margin-top: 6rem;
+    margin-right: 2rem;
+}
+.hero .hero-right{
+    margin-left: 8rem;
+    margin-right: -4rem;
+}
+.hero button{
+    padding: .9rem 1.8rem;
+    border: none;
+    border-radius: 4rem;
+    background: linear-gradient(86deg,rgba(208, 105, 182, 0.529),rgba(68, 68, 184, 0.494));
+}
+/*owl----------------------------------*/
+.own{
+    margin-bottom: 5rem;
+}
+/*---------------section 2----------------*/
+.sec1{
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.sec1 .cnt-left{
+    margin-top: 5rem;
+    
+}
+.sec1 button{
+    padding: .9rem 1.8rem;
+    border: none;
+    border-radius: 4rem;
+    background: linear-gradient(86deg,rgba(208, 105, 182, 0.529),rgba(68, 68, 184, 0.494));
+}
+/*-------------section 3-----------------*/
+.sec2{
+    display: flex;
+}
+.sec2 .sct-left{
+    margin-top: 2rem;
+}
+.sec2 .sct-left p{
+    align-self: start;
+    ;
+}
+/*------------------section 4--------------*/
+.sect3{
+    display: flex;
+    margin-top: 3rem;
+    
+}
+
+.sect3 .win-right{
+    margin-left: 14rem;
+  
+}
+/*---------------download-----------------*/
+.dwn {
+    background:linear-gradient(90deg,rgba(0, 83, 128, 0.508),rgba(0, 0, 255, 0.563));
+    border-radius: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 2rem 3rem;
+}
+.dwn h1{
+    color: rgb(0, 0, 0);
+    text-shadow: .1rem .3rem .2rem rgba(0, 128, 0, 0.268);
+}
+.dwn button{
+    padding: .9rem 1.8rem;
+    border: none;
+    border-radius: 4rem;
+    background: linear-gradient(86deg,rgba(208, 105, 182, 0.529),rgba(68, 68, 184, 0.494));
+    box-shadow: .11rem .3rem 1rem rgba(0, 128, 0, 0.254);
+}
+/*------------seo settings--------------*/
+.seo{
+    display: flex;
+    margin-bottom: 4rem;
+}
+/*--------footer------------*/
+
